@@ -10,14 +10,14 @@ function Index() {
 
             <div className="row">
                 <div className="col-md-4">
-                    <img src="./images/picture of me 1.png" alt="A picture of Corey Spratlan" style={{ width: "100%" }} />
+                    <img src="./images/picture of me 1.png" alt="Corey Spratlan" style={{ width: "100%" }} />
                 </div>
 
 
 
                 <div className="col-md-4">
                     <div className="border-dark mb-3" style={{ maxWidth: "35rem" }}>
-                        <div className="header" className="card-header bg-dark text-light text-center" style={{ text: "light" }}><b>About Me</b></div>
+                        <div className="card-header header bg-dark text-light text-center" style={{ text: "light" }}><b>About Me</b></div>
                         <div className="card-body text-dark aboutmecard">
                             <p>A native to Austin, Corey began his coding studies through the UT Coding Bootcamp Full-Stack Develpment full-time program in June, 2020.
                             Corey was an orchestra teacher for the Round Rock Indepdendent School District as well as a conductor for the Austin Youth Orchestra,
@@ -35,7 +35,7 @@ function Index() {
 
                 <div className="col-md-4">
                     <div className="border-dark mb-3" style={{ maxWidth: "35rem" }}>
-                        <div className="header" className="card-header bg-dark text-light text-center"><b>Education / Experience</b></div>
+                        <div className="card-header header bg-dark text-light text-center"><b>Education / Experience</b></div>
                         <div className="card-body text-dark aboutmecard">
                             <h3 className="mb-2"> Education </h3>
 

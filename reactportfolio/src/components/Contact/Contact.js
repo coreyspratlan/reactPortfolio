@@ -1,5 +1,8 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
+// import SocialBadge from "react-social-badge";
+
 
 function Contact() {
     // Setting the component's initial state
@@ -37,7 +40,7 @@ function Contact() {
                         </div>
                     </div>
 
-                    {/* <div className="row">
+                    <div className="row">
 
                         <div className="col-md-3">
                             <div className="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
@@ -48,19 +51,20 @@ function Contact() {
 
                         <div className="col-md-3">
                             <Link to="https://github.com/coreyspratlan" target="blank"><img src="./images/GitHub.png"
-                                alt="Link to GitHub" style={"width: 280px"} /></Link>
+                                alt="Link to GitHub" style={{ "width": "280px" }} /></Link>
 
                         </div>
 
-                    </div> */}
+                    </div>
                 </div>
             </div>
 
+
+
+            {/* <SocialBadge url='https://platform.linkedin.com/badges/js/profile.js' /> */}
+            {/* {script.src = "https://platform.linkedin.com/badges/js/profile.js"} */}
+
         </div>
-
-        // <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
-
 
     );
 }
