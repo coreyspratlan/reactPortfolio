@@ -41,13 +41,13 @@ function Index() {
 
                             <ul className="mb-2">
                                 <li>Baylor University: Bachelor of Music Education</li>
-                                <li>University of Austin: Master of Music</li>
-                                <li>UT Coding Bootcamp Full-Stack Development</li>
+                                <li>University of Texas at Austin: Master of Music</li>
+                                <li>UT Coding Bootcamp Full-Stack Web Development</li>
                             </ul>
                             <h3 className="mb-2"> Work Experience </h3>
 
                             <ul>
-                                <li>Waco Symphony - section violin</li>
+                                <li>Waco Symphony - section violin, principal</li>
                                 <li>Central Texas String Academy, violin instructor</li>
                                 <li>Trinity Episcopal School, orchestra director</li>
                                 <li>Ridgeview Middle School, orchestra director</li>

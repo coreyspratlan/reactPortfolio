@@ -42,27 +42,31 @@ function Contact() {
 
                     <div className="row">
 
-                        <div className="col-md-3">
-                            <div className="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
-                                data-type="horizontal" data-theme="dark" data-vanity="corey-spratlan-3849731a5">
-                                <Link className="LI-simple-link" to='https://www.linkedin.com/in/corey-spratlan-3849731a5?trk=profile-badge'>Corey Spratlan</Link>
+                        <div className="col-md-4">
+                            <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal"
+                                data-theme="dark" data-vanity="corey-spratlan-3849731a5" >
+                                <a class="LI-simple-link" href='https://www.linkedin.com/in/corey-spratlan-3849731a5?trk=profile-badge'>
+                                    Corey Spratlan</a>
                             </div>
                         </div>
 
-                        <div className="col-md-3">
-                            <Link to="https://github.com/coreyspratlan" target="blank"><img src="./images/GitHub.png"
-                                alt="Link to GitHub" style={{ "width": "280px" }} /></Link>
+
+                        <div className="col-md-4">
+                            <a href="https://github.com/coreyspratlan" target="blank"><img src="./images/GitHub.png"
+                                alt="Link to GitHub" style={{ "width": "400px", "height": "215px" }} /></a>
+
+                        </div>
+                        <div className="col-md-1"></div>
+
+                        <div className="col-md-2 border border-dark text-center">
+                            <a href="https://docs.google.com/document/d/1jZTrAXM4a5l1_v8RaGYg8O4gNSl2jzXw-1HrByqTCiU/edit?usp=sharing" target="blank"><img src="./images/Resume.png"
+                                alt="Link to Resume" style={{ "width": "200px", "height": "215px" }} /></a>
 
                         </div>
 
                     </div>
                 </div>
             </div>
-
-
-
-            {/* <SocialBadge url='https://platform.linkedin.com/badges/js/profile.js' /> */}
-            {/* {script.src = "https://platform.linkedin.com/badges/js/profile.js"} */}
 
         </div>
 
